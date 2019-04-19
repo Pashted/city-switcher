@@ -1,0 +1,75 @@
+.city-switcher {
+  text-align: right;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.city-switcher > div {
+  font-style: italic;
+}
+.city-switcher .cityname {
+  font-size: 13px;
+  font-weight: 600;
+  color: #188b30;
+  text-decoration: underline;
+}
+.city-switcher:hover .cityname {
+  text-decoration: none;
+}
+#switch-city .modal-header,
+#ask-city .modal-header {
+  text-align: center;
+  padding: 27px 15px;
+}
+#switch-city .modal-title,
+#ask-city .modal-title,
+#switch-city .modal-body,
+#ask-city .modal-body {
+  cursor: default;
+}
+#switch-city .modal-content,
+#ask-city .modal-content {
+  border-radius: 0;
+  border-top: 2px solid #188b30;
+}
+#switch-city .btn,
+#ask-city .btn {
+  min-width: 90px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+#switch-city a,
+#switch-city span {
+  font-size: 16px;
+  display: inline-block;
+  padding: 3px 12px;
+  margin-bottom: 3px;
+  font-weight: 600;
+  width: 48%;
+}
+#switch-city a:hover {
+  text-decoration: underline !important;
+}
+#ask-city .modal-body,
+#ask-city .modal-footer {
+  text-align: center;
+}
+#ask-city .h3 {
+  margin-bottom: 15px;
+}
+body.modal-open {
+  padding-right: 17px;
+}
+@media (max-width: 767px) {
+  .city-switcher {
+    float: right !important;
+  }
+  .city-switcher > div {
+    line-height: 35px;
+    display: inline-block;
+  }
+}
+.buner_top div {
+  /*16.03  банер в шапке*/
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

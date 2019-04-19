@@ -194,6 +194,7 @@ class Switcher
 
         global $APPLICATION;
         $APPLICATION->AddHeadScript('/include/city-switcher/script.js');
+		$APPLICATION->SetAdditionalCSS('/include/city-switcher/style.css');
 
         include('template.php');
     }
